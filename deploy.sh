@@ -6,7 +6,7 @@
 #	      https://github.com/SonyaCore
 #
 
-PORT=80
+PORT=443
 UUID=$(cat /proc/sys/kernel/random/uuid)
 IP=$(hostname -I | cut -d' ' -f1)
 CONFIGNAME="config.json"
@@ -61,7 +61,7 @@ cat > $CONFIGNAME <<CONFIG
             "id": "$UUID",
             "level": 1,
             "alterId": 0,
-            "email": "client@example.com"
+            "email": "danaheinze40@gmail.com"
           }
         ],
         "disableInsecureEncryption": true
